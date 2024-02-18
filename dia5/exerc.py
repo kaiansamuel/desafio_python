@@ -16,23 +16,23 @@ se o aluno tirou a média aritimética > 7, aluno está aprovado
 utilize a sua criatividade e agrade o seu professor, com a melhor experiencia
 
 """
-print("======[Calculo de média de alunos]======")
 
-nome = input("Digite o nome do aluno:\n")
-nota1 = float(input(f"Digite a nota 1 - {nome}\n"))
-nota2 = float(input(f"Digite a nota 2 - {nome}\n"))
-nota3 = float(input(f"Digite a nota 3 - {nome}\n"))
+nome = print("=========== [Calculo de média de alunos] ==========")
 
-media = (nota1 + nota2 + nota3) / 3
+nome = input("Digite o nome do aluno\n")
+nota1 = float(input(f"Digite a nota de número 1 - {nome}\n"))
+nota2 = float(input(f"Digite a nota de número 2 - {nome}\n"))
+nota3 = float(input(f"Digite a nota de número 3 - {nome}\n"))
+
+media = (nota1+nota2+nota3)/3
 
 if media < 5:
-  resultado = 'reprovado'
+    resultado = "reprovado"
 elif media >= 5 and media <= 7:
-  resultado = 'recuperação'
+    resultado = "recuperação"
 else:
-  resultado = 'Aprovado'    
+    resultado = "Aprovado"
 
-print("======[Resultado]======")
+print("=========== [Resutado] ==========")
 media_formatada = "{:0.2f}".format(media)
-print(f"Situação do aluno {nome} é de {resultado} pois sua média foi {media_formatada}")  
-
+print(f"Situação do aluno {nome} é de {resultado} pois sua média foi {media_formatada}")

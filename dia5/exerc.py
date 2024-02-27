@@ -36,3 +36,6 @@ else:
 print("=========== [Resutado] ==========")
 media_formatada = "{:0.2f}".format(media)
 print(f"Situação do aluno {nome} é de {resultado} pois sua média foi {media_formatada}")
+
+
+

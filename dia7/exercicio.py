@@ -70,7 +70,8 @@ for i in range(0, quantidade_aluno):
             print(f"{chave}: {valor}")
         print("\n")
     print("======================================\n")    
-
+    
+    
 
 
 
